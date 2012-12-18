@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "TargetInterface.h"
+/**
+ *@brief 实现了目标接口的类
+ */
 @interface Target : NSObject <TargetInterface>
 
 @end

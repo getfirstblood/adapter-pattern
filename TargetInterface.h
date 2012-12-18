@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @protocol TargetInterface <NSObject>
+/** 目标接口方法*/
 - (void)addTwo;
 @end

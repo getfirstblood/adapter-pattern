@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/**
+ *@brief 被适配的类
+ */
 @interface one : NSObject
+/** 加一操作*/
 - (void)addOne;
 @end

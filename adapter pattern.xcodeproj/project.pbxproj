@@ -10,6 +10,9 @@
 		C8C224CB167F3A4900138B26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C224CA167F3A4900138B26 /* Foundation.framework */; };
 		C8C224CE167F3A4900138B26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C224CD167F3A4900138B26 /* main.m */; };
 		C8C224D2167F3A4900138B26 /* adapter_pattern.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C8C224D1167F3A4900138B26 /* adapter_pattern.1 */; };
+		C8F1178316801AEB003AA99D /* Target.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F1178216801AEB003AA99D /* Target.m */; };
+		C8F1178616801B90003AA99D /* one.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F1178516801B90003AA99D /* one.m */; };
+		C8F1178916801BD5003AA99D /* adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F1178816801BD5003AA99D /* adapter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +35,13 @@
 		C8C224D0167F3A4900138B26 /* adapter pattern-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "adapter pattern-Prefix.pch"; sourceTree = "<group>"; };
 		C8C224D1167F3A4900138B26 /* adapter_pattern.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = adapter_pattern.1; sourceTree = "<group>"; };
 		C8C224D8167F3A8000138B26 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		C8F1178016801AC2003AA99D /* TargetInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetInterface.h; sourceTree = "<group>"; };
+		C8F1178116801AEB003AA99D /* Target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target.h; sourceTree = "<group>"; };
+		C8F1178216801AEB003AA99D /* Target.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target.m; sourceTree = "<group>"; };
+		C8F1178416801B90003AA99D /* one.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = one.h; sourceTree = "<group>"; };
+		C8F1178516801B90003AA99D /* one.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = one.m; sourceTree = "<group>"; };
+		C8F1178716801BD5003AA99D /* adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adapter.h; sourceTree = "<group>"; };
+		C8F1178816801BD5003AA99D /* adapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = adapter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +59,13 @@
 		C8C224BB167F3A4900138B26 = {
 			isa = PBXGroup;
 			children = (
+				C8F1178716801BD5003AA99D /* adapter.h */,
+				C8F1178816801BD5003AA99D /* adapter.m */,
+				C8F1178416801B90003AA99D /* one.h */,
+				C8F1178516801B90003AA99D /* one.m */,
+				C8F1178116801AEB003AA99D /* Target.h */,
+				C8F1178216801AEB003AA99D /* Target.m */,
+				C8F1178016801AC2003AA99D /* TargetInterface.h */,
 				C8C224D8167F3A8000138B26 /* README.md */,
 				C8C224CC167F3A4900138B26 /* adapter pattern */,
 				C8C224C9167F3A4900138B26 /* Frameworks */,
@@ -142,6 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8C224CE167F3A4900138B26 /* main.m in Sources */,
+				C8F1178316801AEB003AA99D /* Target.m in Sources */,
+				C8F1178616801B90003AA99D /* one.m in Sources */,
+				C8F1178916801BD5003AA99D /* adapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +256,7 @@
 				C8C224D7167F3A4900138B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
